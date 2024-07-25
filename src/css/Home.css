@@ -1,0 +1,60 @@
+body {
+    background-image: url('../images/wallpaper.png');
+}
+
+.container-center {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.logo {
+    width: 60vh;
+    margin: 10vh;
+}
+
+.row2 {
+    background-color: #f1ebe5;
+    padding-top: 20px;
+    min-height: 60vh;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.button {
+    font-size: 18px;
+    border: 1px solid #403e31;
+    color: #403e31;
+    background-color: transparent;
+    margin-bottom: 25px;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.button:hover {
+    background-color: #403e31;
+    color: #f1ebe5;
+}
+
+.sociais {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-social {
+    width: 3.5vh;
+    margin: 15px;
+}
